@@ -1,0 +1,41 @@
+/* @import "../assests/theme.css"; */
+
+.header {
+  height: var(--header-height);
+  background-color: var(--global--color-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  color: var(--global--color-white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 30px;
+  font-family: "TR_Neo Afrique Bold Oblique", sans-serif;
+  text-transform: lowercase;
+  color: var(--global--color-pink);
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.logo img {
+  height: 100%;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icons img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  cursor: pointer;
+}

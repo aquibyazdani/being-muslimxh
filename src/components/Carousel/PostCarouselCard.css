@@ -1,0 +1,23 @@
+.carousel_card_wrapper {
+  width: 500px;
+  overflow: hidden;
+  color: var(--global--color-white);
+
+  .carousel_card_header {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    font-family: var(--global--font-family-headline);
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .carousel_card_author {
+    padding: 20px 0px;
+  }
+  .carousel_card_img {
+    img {
+      width: 500px;
+    }
+  }
+}

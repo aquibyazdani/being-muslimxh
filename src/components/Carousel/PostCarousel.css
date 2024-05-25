@@ -1,0 +1,7 @@
+.post_carousel_wrapper {
+  background-color: var(--global--color-black);
+  overflow: scroll;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 30px 30px;
+}
